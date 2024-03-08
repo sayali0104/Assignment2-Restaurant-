@@ -1,0 +1,146 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Contact Us</title>
+  <style>
+    body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+ 
+.contact {
+  padding: 20px;
+}
+ 
+.contact h2 {
+  margin-bottom: 20px;
+}
+ 
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+ 
+#contact-form button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+ 
+.opening-hours,
+.location {
+  margin-top: 20px;
+}
+ 
+.location .icon {
+  margin-right: 5px;
+}
+  </style>
+</head>
+<body>
+  <section class="contact">
+    <h2>Have any questions?</h2>
+    <form id="contact-form">
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+    <div class="opening-hours">
+      <h3>We are open:</h3>
+      <p>Monday - Friday: 9:00 AM - 10:00 PM</p>
+      <p>Saturday - Sunday: 10:00 AM - 8:00 PM</p>
+    </div>
+    <div class="location">
+      <h3>Location:</h3>
+      <p>123 Main Street, City, Country</p>
+      <h3>Phone:</h3>
+      <p><span class="icon">📞</span> +123-456-7890</p>
+      <h3>Email:</h3>
+      <p><span class="icon">📧</span> info@example.com</p>
+    </div>
+  </section>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Form</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+  }
+ 
+  .card {
+    width: 400px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+ 
+  .card h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+ 
+  .card form input[type="text"],
+  .card form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+ 
+  .card form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+ 
+  .card form input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+</style>
+</head>
+<body>
+ 
+<div class="card">
+  <h2>Contact Us</h2>
+  <form action="#" method="post">
+    <input type="text" name="name" placeholder="Your Name">
+    <input type="text" name="email" placeholder="Your Email">
+    <textarea name="message" rows="4" placeholder="Your Message"></textarea>
+    <input type="submit" value="Send Message">
+  </form>
+</div>
+ 
+</body>
+</html>
